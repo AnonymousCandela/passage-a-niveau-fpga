@@ -1,0 +1,45 @@
+# ------------------------------------------------------------
+# Fichiers à ne pas publier
+# ------------------------------------------------------------
+
+# Document contenant les liens vidéo (gardé en local)
+*.docx
+
+# ------------------------------------------------------------
+# Quartus Prime : fichiers générés
+# ------------------------------------------------------------
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+qdb/
+*.qws
+*.bak
+*.rpt
+*.summary
+*.smsg
+*.done
+*.sof
+*.pof
+*.jdi
+*.sld
+c5_pin_model_dump.txt
+PLLJ_PLLSPE_INFO.txt
+
+# ModelSim / Questa
+work/
+transcript
+*.wlf
+modelsim.ini
+
+# ------------------------------------------------------------
+# Office, système et éditeurs
+# ------------------------------------------------------------
+~$*
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
